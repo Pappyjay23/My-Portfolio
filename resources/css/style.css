@@ -303,16 +303,15 @@ header {
 
     @media (max-width: 994px) {
         .experience-box {
-            margin: 20px 0;
-            /* transform: scale(1); */
-            
+         margin: 20px 0;    
         }
     }
 
     .experience-box {
-        background-color: #fff;
-        box-shadow: 1px 1px 2px #ececec;
-        padding: 30px;
+        /* background-color: #fff; */
+        /* box-shadow: 1px 1px 2px #ececec; */
+        padding: 10px 0;
+        text-align: center;
         transform: scale(1.05);
         transition: all ease 0.5s;
     }
@@ -322,7 +321,8 @@ header {
     }
 
     .experience-box:hover {
-        background-color: #f5f5f5;
+        background-color: #fff;
+        /* background-color: #f5f5f5; */
         cursor: pointer;
         transform: scale(1);
     }
