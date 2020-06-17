@@ -397,6 +397,8 @@ header {
 
     .contact-content  {
         width: 100%;
+        text-align: center;
+        margin: 20px 0;
     }
     .contact-content div {
         margin-bottom: 20px;
