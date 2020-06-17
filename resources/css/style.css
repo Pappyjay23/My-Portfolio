@@ -34,6 +34,7 @@ h5 {
     font-size: 70%;
     font-weight: 600;
     color: #515769;
+    letter-spacing: 1px;
 }
 
 section {
@@ -257,7 +258,7 @@ header {
     .about-desc {
         font-size: 80%;
         font-weight: 500;
-        color: #a6a7aa;
+        color: #636363;
     }
 
     .div-about-desc {
@@ -342,6 +343,10 @@ header {
 /*  SECTION EXPERIENCE */
 
 /* SECTION WORKS  */
+.modal-header .close {
+    margin-top: 20px;
+}
+
 .modal-header {
     display: block;
     width: 100%;
@@ -351,6 +356,9 @@ header {
     margin-top: 20px;
     border-right: 1px solid #515769;
     font-size: 80%;
+}
+.modal-quote a {
+    text-decoration: none;
 }
 .modal-quote2 {
     margin-top: 20px;
