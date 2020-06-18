@@ -47,12 +47,12 @@ $(document).ready(function () {
     $(".js--anime-1").waypoint(function(direction){
         $(".js--anime-1").addClass("animated fadeInRight")
     },{
-        offset: "50%"
+        offset: "70%"
     })
     $(".js--anime-2").waypoint(function(direction){
         $(".js--anime-2").addClass("animated fadeInUp")
     },{
-        offset: "50%"
+        offset: "70%"
     })
     $(".js--anime-3").waypoint(function(direction){
         $(".js--anime-3").addClass("animated fadeIn")
