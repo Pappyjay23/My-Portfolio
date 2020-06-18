@@ -43,4 +43,26 @@ $(document).ready(function () {
         }
     })
 
+    // ANIMATIONS ON SCROLL
+    $(".js--anime-1").waypoint(function(direction){
+        $(".js--anime-1").addClass("animated fadeInRight")
+    },{
+        offset: "50%"
+    })
+    $(".js--anime-2").waypoint(function(direction){
+        $(".js--anime-2").addClass("animated fadeInUp")
+    },{
+        offset: "50%"
+    })
+    $(".js--anime-3").waypoint(function(direction){
+        $(".js--anime-3").addClass("animated fadeIn")
+    },{
+        offset: "50%"
+    })
+    $(".js--anime-4").waypoint(function(direction){
+        $(".js--anime-4").addClass("animated fadeInRight")
+    },{
+        offset: "70%"
+    })
+
 })

@@ -443,3 +443,24 @@ footer a:active {
 }
 
 /* FOOTER */
+
+/* ANIMATIONS */
+    .js--anime-1,
+    .js--anime-2,
+    .js--anime-3,
+    .js--anime-4 {
+        opacity: 0;
+        animation-duration: 1s;
+    }
+    .js--anime-1 .animated,
+    .js--anime-2 .animated,
+    .js--anime-3 .animated,
+    .js--anime-4 .animated {
+        opacity: 1;
+    }
+
+    .ontop {
+        z-index: 9999;
+    }
+
+/* ANIMATIONS */
